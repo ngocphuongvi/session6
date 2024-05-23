@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billing address</title>
+    <link rel="stylesheet" href="./baitap10.css">
+</head>
+
+<body>
+    <div>
+        <table class="table1">
+            <h2>Billing address</h2>
+            <tr>
+                <td>First name <br />
+                    <input type="text" name="first name" id="firstname">
+
+                </td>
+                <td> Last name <br />
+                    <input type="text" name="last name" id="lastname">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"> Username <br />
+                    <input class="input1line" type="text" name="username" placeholder="Username">
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan="2">Email(Optional) <br />
+                    <input class="input1line" type="email" placeholder="you@example.com">
+
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"> Address <br>
+                    <input class="input1line" type="text" placeholder="1234 Main St">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"> Address 2 (Optional) <br />
+                    <input class="input1line" type="text" placeholder="Apartment or suite">
+
+                </td>
+            </tr>
+        </table>
+        <table class="table2">
+            <tr>
+                <td>Country <br>
+                    <select name="country" id="country">
+                        <option value="Choose">Choose...</option>
+                        <option value="Vietnam">Vietnam</option>
+                        <option value="Korea">Korea</option>
+                    </select>
+                </td>
+                <td>State <br>
+                    <select name="state" id="state">State
+                        <option value="Choose">Choose...</option>
+                        <option value="United">United</option>
+
+                    </select>
+                </td>
+                <td class="td3">Zip <br>
+                    <input type="text" id="zip">
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <div class="checkbox">
+            <input type="checkbox">
+            <label for="">Shipping address is the same as my billing address</label> <br>
+            <input type="checkbox">
+            <label for="">Save this information for next time</label>
+        </div>
+        <hr>
+        <div class="payment">
+            <h2>Payment</h2> <br>
+            <input type="radio" id="Credit card" name="Payment">
+            <label for="Credit card">Credit card</label> <br>
+            <input type="radio" id="Debit card" name="Payment">
+            <label for="Debit card">Debit card</label> <br>
+            <input type="radio" id="Paypal" name="Payment">
+            <label for="Paypal">Paypal</label>
+        </div>
+        <table class="table3">
+            <tr>
+                <td id="credit-name">Name on card <br>
+                    <input type="text" name="name on card"> <br>
+                    <p>Full name as displayed on card</p>
+                </td>
+                <td id="credit-card">Credit card number <br>
+                    <input type="text" name="credit card number"><br>
+                    <p></p>
+                </td>
+            </tr>
+        </table>
+        <table class="last-table">
+            <tr>
+                <td>
+                    Expiration <br>
+                    <input type="text">
+                </td>
+                <td>CVV <br>
+                    <input type="text">
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <button>Continue to checkout</button>
+    </div>
+</body>
+
+</html>

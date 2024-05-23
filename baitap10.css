@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    background-color: #f8f9fa;
+    width: 380px;
+    padding: 13px;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+
+h2 {
+    font-size: 20px;
+}
+
+.input1line {
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 9px;
+}
+
+
+.table1 {
+    width: 100%;
+}
+
+#firstname {
+    width: 100%;
+}
+
+#lastname {
+    width: 100%;
+}
+
+.table2 {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+#country {
+    width: 130px;
+    margin-right: 5px;
+}
+
+#state {
+    width: 130px;
+    margin-right: 5px;
+}
+
+#zip {
+    width: 100%;
+}
+
+td {
+    padding-bottom: 3px;
+}
+
+.checkbox {
+    width: 100%;
+
+}
+
+.payment {
+    width: 100%;
+}
+
+.table3 p {
+    font-size: small;
+    color: #818587;
+}
+
+.table3 td {
+    width: 100%;
+}
+
+/* #credit-name {
+    width: 200px;
+} */
+
+#credit-card {
+    padding-bottom: 18px;
+    padding-left: 5px;
+}
+
+button {
+    width: 100%;
+    background-color: #0b6ffd;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 5px;
+}
